@@ -1,0 +1,9 @@
+if url.body.style.backgroundColor <> "#323232" then
+url.body.style.backgroundColor = "#323232"
+else
+url.body.style.backgroundColor = ""
+end if
+'网页关灯、开灯
+'appcontrol.addtab
+'appcontrol.gotourl "www.baidu.com"
+appcontrol.endapp          '结束应用

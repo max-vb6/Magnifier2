@@ -1,0 +1,19 @@
+dim DoRfsh
+DoRfsh=true
+form.width=5000
+form.height=4000
+set id=html.document.all
+id.StartRfsh.onclick=getref("StartRfsh")
+id.Exit.onclick=getref("AppExit")
+
+sub StartRfsh
+	do until DoRfsh=false
+		appcontrol.gotourl id.Url.value
+		appcontrol.appsleep cint(id.Time.value)
+	loop
+end sub
+
+sub AppExit
+	DoRfsh=false
+	form.unloadform
+end sub
