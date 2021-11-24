@@ -10,6 +10,8 @@ Magnifier2 浏览器, 完成于 2012 年八月 (大概初二/初三这个时候)
 
 比如代码都不写缩进, 让人看得血压都高了.
 
+![screenshot](screenshot.png)
+
 ## Copyright and License
 
 Copyright (C) 2010-2012 MaxXSoft (MaxXing). License GPLv3.
